@@ -1,0 +1,27 @@
+{
+  "name": "tdd-testes",
+  "version": "1.0.0",
+  "description": "Aula 05 - Testes Unitários com Node.js e Vitest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegianoAlves/tdd-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RegianoAlves/tdd-testes/issues"
+  },
+  "homepage": "https://github.com/RegianoAlves/tdd-testes#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.5",
+    "vitest": "^4.1.5"
+  }
+}
