@@ -52,11 +52,9 @@ export function addTask(tasks, title) {
   return [...tasks, newTask];
 }
 
-
 // ------------------------------------------------------------
-// Alteração de estado
+// Alteração de estado toggleTask
 // ------------------------------------------------------------
-
 export function toggleTask(task) {
   return {
     ...task,
