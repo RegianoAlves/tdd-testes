@@ -72,6 +72,7 @@ export function removeTask(tasks, taskId) {
 // ------------------------------------------------------------
 // Filtros
 // ------------------------------------------------------------
+
 export function filterTasks(tasks, status) {
   switch (status) {
     case 'completed':
@@ -83,7 +84,7 @@ export function filterTasks(tasks, status) {
       return [...tasks];
   }
 }
-/*
+
 // ------------------------------------------------------------
 // Contagens
 // ------------------------------------------------------------
@@ -99,4 +100,3 @@ export function countCompleted(tasks) {
 export function countPending(tasks) {
   return tasks.filter((task) => task.completed === false).length;
 }
-  */
