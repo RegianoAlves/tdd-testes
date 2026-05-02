@@ -68,11 +68,10 @@ export function toggleTask(task) {
 export function removeTask(tasks, taskId) {
   return tasks.filter((task) => task.id !== taskId);
 }
-/*
+
 // ------------------------------------------------------------
 // Filtros
 // ------------------------------------------------------------
-
 export function filterTasks(tasks, status) {
   switch (status) {
     case 'completed':
@@ -84,7 +83,7 @@ export function filterTasks(tasks, status) {
       return [...tasks];
   }
 }
-
+/*
 // ------------------------------------------------------------
 // Contagens
 // ------------------------------------------------------------
